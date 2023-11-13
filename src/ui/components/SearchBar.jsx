@@ -12,6 +12,7 @@ function SearchBar() {
 					</InputAdornment>
 				),
 			}}
+			size="small"
 		/>
 	);
 }
