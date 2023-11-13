@@ -7,19 +7,19 @@ function NotificationComponent() {
 		<Badge
 			badgeContent={
 				<SvgIcon>
-					<svg height="100" width="100" viewBox="0 0 100 100">
-						<circle cx="50" cy="50" r="50" fill="white" />
-						<circle cx="50" cy="50" r="25" fill="green" />
+					<svg height="200" width="200" viewBox="0 0 200 200">
+						<circle cx="100" cy="100" r="100" fill="white" />
+						<circle cx="100" cy="100" r="50" fill="green" />
 					</svg>
 				</SvgIcon>
 			}
 			overlap="circular"
 			anchorOrigin={{
-				vertical: 'bottom',
+				vertical: 'top',
 				horizontal: 'right',
 			}}
 		>
-			<NotificationsIcon sx={{ fontSize: 40 }} />
+			<NotificationsIcon sx={{ fontSize: 50 }} />
 		</Badge>
 	);
 }
