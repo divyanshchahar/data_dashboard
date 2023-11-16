@@ -6,7 +6,6 @@ function ListItemButtonComponent({ Icon, primaryText }) {
 			<ListItemIcon>
 				<Icon />
 			</ListItemIcon>
-
 			<ListItemText primary={primaryText} />
 		</ListItemButton>
 	);
