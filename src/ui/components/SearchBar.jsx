@@ -13,6 +13,7 @@ function SearchBar() {
 				),
 			}}
 			size="small"
+			variant="outlined"
 		/>
 	);
 }
