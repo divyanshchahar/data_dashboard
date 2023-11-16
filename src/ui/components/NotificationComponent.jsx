@@ -19,7 +19,7 @@ function NotificationComponent() {
 				horizontal: 'right',
 			}}
 		>
-			<NotificationsIcon sx={{ fontSize: 50 }} />
+			<NotificationsIcon sx={{ fontSize: 30 }} />
 		</Badge>
 	);
 }
