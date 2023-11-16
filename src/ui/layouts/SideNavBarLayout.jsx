@@ -20,7 +20,14 @@ const buttonList = [
 
 export default function SideNavBarLayout() {
 	return (
-		<Box sx={{ width: '100%', maxWidth: 360, bgcolor: 'background.paper' }}>
+		<Box
+			sx={{
+				width: 'fit-content',
+				bgcolor: 'background.paper',
+				position: 'absolute',
+				top: '64px',
+			}}
+		>
 			<nav aria-label="main mailbox folders">
 				<List>
 					{buttonList.map((item) => {
